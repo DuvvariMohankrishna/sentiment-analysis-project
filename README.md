@@ -57,7 +57,7 @@ Model Evaluation
 sentiment-analysis-project/
 │
 ├── README.md
-├── Sanasyisisminiproject.ipynb    # Main Jupyter Notebook
+├── sentiment_analysis.ipynb    # Main Jupyter Notebook
 ├── sentiment_analysis.csv         # Dataset
 └── sentimentanalysistrim.docx     # Project documentation
 📊 Dataset
