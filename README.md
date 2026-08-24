@@ -1,36 +1,51 @@
-🧠 Sentiment Analysis Project
+# 🧠 Sentiment Analysis Project
 
-An NLP-based machine learning project that analyzes text and classifies sentiment using Python, NLTK, TF-IDF, and Logistic Regression.
+An NLP-based machine learning project that analyzes text and classifies sentiment as **positive or negative** using **Python, NLTK, TF-IDF Vectorization, and Logistic Regression**.
 
 This project demonstrates an end-to-end machine learning workflow, including data preprocessing, text cleaning, tokenization, stemming, feature extraction, model training, and performance evaluation.
 
-🚀 Project Overview
+---
 
-Sentiment Analysis is a Natural Language Processing (NLP) technique used to determine the sentiment or emotional tone expressed in text.
+## 🚀 Project Overview
 
-In this project, text data is preprocessed and transformed into numerical features using TF-IDF Vectorization. A Logistic Regression model is then trained to classify the sentiment of the input text.
+Sentiment Analysis is a Natural Language Processing (NLP) technique used to identify the sentiment or emotional tone expressed in text.
 
-The project was developed using Python and Jupyter Notebook.
+In this project, text data is preprocessed and transformed into numerical features using **TF-IDF Vectorization**. A **Logistic Regression** model is then trained to classify the sentiment of the input text.
 
-✨ Features
-📊 Text data processing and analysis
-🧹 Text cleaning and preprocessing
-🔤 Tokenization using NLTK
-🌱 Text stemming
-🔢 TF-IDF feature extraction
-🤖 Sentiment classification using Logistic Regression
-📈 Model evaluation using classification metrics
-🧪 Train-test data splitting
-🛠️ Tech Stack
-Category	Technologies
-Programming Language	Python
-Development Environment	Jupyter Notebook
-NLP	NLTK
-Data Processing	Pandas, NumPy
-Feature Extraction	TF-IDF Vectorizer
-Machine Learning	Scikit-learn
-Classification Model	Logistic Regression
-🔄 Machine Learning Workflow
+The project was developed using **Python and Jupyter Notebook**.
+
+---
+
+## ✨ Features
+
+- 📊 Text data processing and analysis
+- 🧹 Text cleaning and preprocessing
+- 🔤 Tokenization using NLTK
+- 🌱 Text stemming
+- 🔢 TF-IDF feature extraction
+- 🤖 Sentiment classification using Logistic Regression
+- 🧪 Train-test data splitting
+- 📈 Model evaluation using classification metrics
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| Development Environment | Jupyter Notebook |
+| NLP | NLTK |
+| Data Processing | Pandas, NumPy |
+| Feature Extraction | TF-IDF Vectorizer |
+| Machine Learning | Scikit-learn |
+| Classification Model | Logistic Regression |
+
+---
+
+## 🔄 Machine Learning Workflow
+
+```text
 Text Dataset
      │
      ▼
@@ -57,22 +72,21 @@ Model Evaluation
 sentiment-analysis-project/
 │
 ├── README.md
-├── sentiment_analysis.ipynb    # Main Jupyter Notebook
+├── sentiment_analysis.ipynb       # Main Jupyter Notebook
 ├── sentiment_analysis.csv         # Dataset
-└── sentimentanalysistrim.docx     # Project documentation
+└── sentiment_analysis_report.docx # Project documentation
 📊 Dataset
 
 The project uses a CSV dataset containing text and corresponding sentiment labels.
 
 The dataset is processed before training using NLP and text preprocessing techniques.
 
-The workflow includes:
-
-Loading the dataset
-Cleaning and preprocessing text
-Tokenizing text
-Applying stemming
-Converting text into numerical features using TF-IDF
+Data Processing Workflow
+Load the dataset
+Clean and preprocess text
+Tokenize text
+Apply stemming
+Convert text into numerical features using TF-IDF
 🧪 Model Training
 
 The machine learning pipeline follows these steps:
@@ -124,7 +138,7 @@ jupyter notebook
 
 Then open:
 
-Sanasyisisminiproject.ipynb
+sentiment_analysis.ipynb
 
 Run the notebook cells sequentially to reproduce the preprocessing, model training, and evaluation workflow.
 
@@ -152,7 +166,8 @@ Jupyter Notebook
  Build a web interface for sentiment prediction
  Develop a REST API for model inference
  Deploy the model as an interactive application
- Add automated testing and reproducible dependency management
+ Add automated testing
+ Add reproducible dependency management
 👨‍💻 Author
 
 Duvvari Mohankrishna
